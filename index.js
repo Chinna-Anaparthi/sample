@@ -7,6 +7,7 @@ app.get('/pingtest',(req,res)=>{
     return res.status(200).json({message:`ping at ${new Date()}`})
 })
 
+
 app.listen(3000,()=>{
     console.log(`server is running on ${3000}`)
 })
